@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Swap our for actual link-->
+        <link rel="canonical" href="https://www.website.com/about/">
+
+        <meta name="description" content="Meta description for the page">
+        <meta name="keywords" content="">
+
+        <!--Social Media Display-->
+        <meta property="og:title" content="Title that shows up on google searches"/>
+        <meta property="og:description" content="Meta description for the page"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://www.website.com/about/"/>
+        <meta property="og:image" content="/images/social.jpg"/>
+        <meta property="og:image:secure_url" content="/images/social.jpg"/>
+
+        <!--Favicons-->
+
+
+
+
+        <link rel="stylesheet" href="root.css">
+
+
+        <link rel="preload" as="image" href="/images/cabinets2-1920w.webp"/>
+
+        <!-- Loading in page specific CSS sheets from css block -->
+        <link rel="stylesheet" href="critical.css"/>
+        <link rel="stylesheet" href="about.css">
+
+        <!--Put analytics tag here at the bottom to prevent it from render blocking-->
+
+        <!-- For home page, use full title, including location for SEO. Other pages should just include the page name -->
+        <title>
+            SY Electricians | Premium Electricians | Sheffield, UK
+        </title>
+    </head>
+    <body>
+        <!--Screen reader skip main nav-->
+        <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
+
+        <!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+
+<div id="navigation">
+    <div aria-hidden="true" class="background-color-div">
+        <!--This div is used to overcome a z-index issue where the open
+            #navbar-menu is on top of the #navigation. This bar places itself 
+            the #navbar-menu so that menu appears behind the #navigation
+        -->
+    </div>
+    <div class="container">
+        <!--Logo - Get SVGs if you can.  I use fiverr to get png's turned into SVGs. Highly recommend it, worth the $20 - get a light and dark version-->
+       
+
+        <!--Mobile Nav toggle-->
+        <button class="hamburger-menu" aria-expanded="false" aria-controls="navbar-menu">
+            <span aria-hidden="true"></span>
+        </button>
+
+        
+  <!--Main Nav-->
+  <nav id="navbar-menu">
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a class="" href="about.html">About Us</a></li>
+        <li><a class="" href="projects.html">Projects</a></li>
+        <li><a class="" href="reviews.html">Reviews</a></li>
+        <li><a class="" href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+   
+    </div>
+</div>
+        <main id="main">
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h">About SY Electricians</h1>
+  <picture class="">
+      <source type="image/webp" srcset="elec-about.webp" sizes="(max-width: 850px) 850px, 1920px">
+  <source type="image/jpeg" srcset="elec-about.jpg">
+      <img
+        src="elec-about.jpg"
+        width="1920"
+        height="1280"
+        alt="electrician"
+        loading="lazy"
+        decoding="async">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs">
+  <div class="cs-container">
+    <!-- Left Image Section -->
+    <div class="cs-left">
+      <picture class="cs-picture cs-picture1">
+      <source type="image/webp" srcset="elec-bg-about-mb.webp" sizes="(max-width: 600px) 400px, 850px">
+  <source type="image/jpeg" srcset="elec-bg-about-mb.jpg" sizes="(max-width: 600px) 400px, 850px">
+      <img
+        src="elec-bg-about-mb.jpg"
+        width="1920"
+        height="1280"
+        alt="cabinets"
+        loading="lazy"
+        decoding="async">
+    </picture>
+      <picture class="cs-picture cs-picture2">
+      <source type="image/webp" srcset="elec-about-2.webp" sizes="(max-width: 600px) 400px, 850px">
+  <source type="image/jpeg" srcset="elec-about-2.jpg" sizes="(max-width: 600px) 400px, 850px">
+      <img
+        src="elec-about-2.jpg"
+        width="400"
+        height="563"
+        alt="house"
+        loading="lazy"
+        decoding="async">
+    </picture>
+    </div>
+    <!-- Right Content Section-->
+    <div class="cs-right">
+      <span class="cs-topper">About Us</span>
+      <h2 class="cs-title">About SY Electricians</h2>
+      <p class="cs-text">
+               We are an electrician team based in Sheffield, dealing with all sorts of electrical problems. We love this job, and are willing to make peoples lives easier. Our electricians and electrical contractors specialize in fast and efficient service, offering custom solutions to meet your needs. 
+            </p>
+      <p class="cs-text">
+        We strive to provide the highest quality of work and customer service, ensuring that all of our customers are satisfied with the results of our services. We are committed to providing the best possible electrical services for both residential and commercial customers, and look forward to serving you.
+            </p>
+      <div class="cs-flex-group">
+
+        <span class="cs-name">Ryan Jones</span>
+        <span class="cs-job">CEO-Founder</span>
+        <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
+      </div>
+      <a href="" class="button-solid">More About Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+
+<section id="cta">
+    <div class="container">
+        <h2 class="title">Don't Let Electrical Problems Dampen Your Day</h2>
+        <p>
+            Call us, and we'll be happy to sort that circuit, or that faulty wire, or help you with larger projects. Take some stress of your mind, whilst we do our job with utmost care and love.
+        </p>
+        <a href="/contact" class="button-solid">Get an Estimate Now</a>
+    </div>
+  <picture class="">
+      <source type="image/webp" srcset="elec-5.webp" sizes="(max-width: 400px) 400px, (max-width: 850px) 850px, 1920">
+  <source type="image/jpeg" srcset="elec-5.JPG" sizes="(max-width: 400px) 400px, (max-width: 850px) 850px, 1920">
+      <img
+        src="elec-5.JPG"
+        width="1920"
+        height="1280"
+        alt="electrician"
+        loading="lazy"
+        decoding="async">
+    </picture>
+</section></main>
+        <!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="footer">
+    <div class="container">
+        <div class="left-section">
+            <a class="logo" href="/"><img loading="lazy" decoding="async" src="SY Electricians-logos_white.png" alt="logo" width="564" height="478"></a>
+        </div>
+        <div class="right-section">
+            <div class="lists">
+                <ul>
+                    <li><h2>Information</h2></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/testimonials">Reviews</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+                <ul>
+                    <li><h2>Services</h2></li>
+                    <li>Service1</li>
+                    <li>Service2</li>
+                    <li>Service4</li>
+                    <li>Service5</li>
+                </ul>
+                <ul>
+                    <li><h2>Contact</h2></li>
+                    <li><a href="/contact">First Address Line<br>UK xx xxx xx</a></li>
+                    <li><a href="tel:555-779-4407">T: (+44) xxxx</a></li>
+                    <li><a href="mailto:email@email.com">Click to Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit">
+        <span>Designed and Hand Coded by</span>
+        <a href="" target="_blank" rel="noopener">SheffieldWebDesigns</a>
+        <span class="copyright"> Copyright 2022 - Present</span>
+    </div>
+</footer>
+
+    <script defer="" src="nav-js.js"></script>
+    <script defer="" src=""></script>
+
+    <!--
+        This script adds a class to the body after scrolling 100px
+        and we used these body.scroll styles to create some on scroll 
+        animations with the navbar
+    -->
+    <script defer="">
+        document.addEventListener('scroll', (e) => { 
+            const scroll = document.documentElement.scrollTop;
+            if(scroll >= 100){
+        document.querySelector('body').classList.add('scroll')
+            } else {
+            document.querySelector('body').classList.remove('scroll')
+            }
+        });
+    </script>
+
+
+</body></html>
